@@ -16,9 +16,6 @@ import java.util.List;
  *这一点非常重要，接下来我们通过一个完整的例子来加深一下理解
  */
 
-class Fruit {}
-class Apple extends Fruit{}
-class Orange extends Fruit{}
 
 public class GenericReading {
 	static List<Apple> apples = Arrays.asList(new Apple());
@@ -52,6 +49,7 @@ public class GenericReading {
 	public static void main(String[] args) {
 		f2();
 	}
+	
 	
 	
 }
